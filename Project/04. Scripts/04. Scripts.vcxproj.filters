@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{8f8ecbdd-0d12-4d5c-9cdf-a248fb375e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Manager">
+      <UniqueIdentifier>{44fe33c6-eccd-4d61-b0f2-1d7c53917b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT">
+      <UniqueIdentifier>{aea032b7-73d8-4a69-8963-20bb3b58f9d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\Combo_system">
+      <UniqueIdentifier>{c12a078a-d12e-40e0-a8c4-5cc36d9f9dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\Soul Eclipse">
+      <UniqueIdentifier>{d1851da1-a37e-40e6-b592-085c2dd5c75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\Instinct">
+      <UniqueIdentifier>{5d00a3f2-6d58-4ee4-af86-8f621e370910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UNIT">
+      <UniqueIdentifier>{2653039f-bc70-4e43-833e-74cc1bf821e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UNIT\MONSTER">
+      <UniqueIdentifier>{9cac0dce-eb8e-43d7-a1cb-dda144e28bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\UNIT\PLAYER">
+      <UniqueIdentifier>{b217bb0a-da4a-4b30-8f68-b1899826a4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\Raging Blow">
+      <UniqueIdentifier>{e3d1038f-4ee6-4979-b991-52eef9987b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\Shadow Flash">
+      <UniqueIdentifier>{5e54c0c9-1a11-422c-ad9d-c38687d6038f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\Flash Jump">
+      <UniqueIdentifier>{c17d4443-3244-4dc5-a203-800173989433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\Death Fault">
+      <UniqueIdentifier>{27b15889-7782-4380-b364-2c5f3b499901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\Shout">
+      <UniqueIdentifier>{13032885-6826-4d81-ad4e-89c1c0509037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\BUFF">
+      <UniqueIdentifier>{91fd11bd-4430-4c40-921c-632701a7201d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\BUFF\Maple Warrior">
+      <UniqueIdentifier>{cad46b8c-724a-4b6e-8303-ddfbbde1255c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\BUFF\Booster">
+      <UniqueIdentifier>{b440c11e-256c-4cf9-802f-ad51d65ce22a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\SKILL_SCRIPT\Attack">
+      <UniqueIdentifier>{41a6db0b-8183-4bba-946a-dceb666f6cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\OBJECT">
+      <UniqueIdentifier>{217d029e-ab42-430d-9a29-4288552c831b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\OBJECT\PAPULATUS_OBJECT">
+      <UniqueIdentifier>{fcbd1146-d87a-4bcc-8034-736d79346c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\OBJECT\MAP_OBJECT">
+      <UniqueIdentifier>{7da7e62f-4ecf-4d0f-b9c4-b055bc874df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\OBJECT\PAPULATUS_OBJECT\Laser">
+      <UniqueIdentifier>{8243f462-c08c-468e-9d0b-96d6b9c93e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\OBJECT\PAPULATUS_OBJECT\Gear">
+      <UniqueIdentifier>{a55e8d01-d5bb-4a6a-95f5-c9186e0ef81a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\OBJECT\PAPULATUS_OBJECT\InstantArea">
+      <UniqueIdentifier>{14d90f20-a7fb-49da-b237-31b417f3631f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Camera">
+      <UniqueIdentifier>{ec0f6b12-3d2f-43bf-9ad3-d2ea5b9337cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\OBJECT\PAPULATUS_OBJECT\Crane">
+      <UniqueIdentifier>{8c358321-053c-4c20-98a5-a6f106f318be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\OBJECT\PAPULATUS_OBJECT\TimeBombs">
+      <UniqueIdentifier>{06a1bff1-ce01-4332-ad13-60338b33d049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\OBJECT\UI">
+      <UniqueIdentifier>{dac3ddd9-e19d-453c-8f30-5534b785c239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Mouse">
+      <UniqueIdentifier>{1ce555a9-b720-49fc-bc22-f7a13014d64d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ScriptMgr.h" />
+    <ClInclude Include="TestScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestMgr.h">
+      <Filter>Scripts\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="STScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboMainScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboSubAScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboSubBScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboSubCScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboSubDScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboSubEScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowAlphaScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Shadow Flash</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowBetaScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Shadow Flash</Filter>
+    </ClInclude>
+    <ClInclude Include="InstinctScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Instinct</Filter>
+    </ClInclude>
+    <ClInclude Include="InstinctActiveScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Instinct</Filter>
+    </ClInclude>
+    <ClInclude Include="GatekeeperScript.h">
+      <Filter>Scripts\UNIT\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="MobGravityScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerScript.h">
+      <Filter>Scripts\UNIT\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="SoulEclipseScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Soul Eclipse</Filter>
+    </ClInclude>
+    <ClInclude Include="RagingBlowScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Raging Blow</Filter>
+    </ClInclude>
+    <ClInclude Include="InstallationTypeScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Flash Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="BoosterScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\BUFF\Booster</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboDeathfaultScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Death Fault</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoutScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Shout</Filter>
+    </ClInclude>
+    <ClInclude Include="MapleWarriorScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\BUFF\Maple Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackScript.h">
+      <Filter>Scripts\SKILL_SCRIPT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="BeShotEffectScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="GiganticvikingScript.h">
+      <Filter>Scripts\UNIT\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="PhantomwatchScript.h">
+      <Filter>Scripts\UNIT\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="PapulatusScript.h">
+      <Filter>Scripts\UNIT\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="AlterEgoScript.h">
+      <Filter>Scripts\UNIT\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderScript.h">
+      <Filter>Scripts\UNIT\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaScript.h">
+      <Filter>Scripts\OBJECT\MAP_OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="LadderScript.h">
+      <Filter>Scripts\OBJECT\MAP_OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="MistScript.h">
+      <Filter>Scripts\OBJECT\MAP_OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="RopeScript.h">
+      <Filter>Scripts\OBJECT\MAP_OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="FallenScript.h">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Gear</Filter>
+    </ClInclude>
+    <ClInclude Include="InstantDeathAreaScript.h">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\InstantArea</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBodyScript.h">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserPointScript.h">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserScript.h">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstructScript.h">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraScript.h">
+      <Filter>Scripts\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CamCollScript.h">
+      <Filter>Scripts\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleScript.h">
+      <Filter>Scripts\OBJECT\MAP_OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveExplosionScript.h">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="UICamScript.h">
+      <Filter>Scripts\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CraneScript.h">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Crane</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerColScript.h">
+      <Filter>Scripts\UNIT\PLAYER</Filter>
+    </ClInclude>
+    <ClInclude Include="WireScript.h">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Crane</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeBombScript.h">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\TimeBombs</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScript.h">
+      <Filter>Scripts\OBJECT\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseScript.h">
+      <Filter>Scripts\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="FingerScript.h">
+      <Filter>Scripts\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemScript.h">
+      <Filter>Scripts\OBJECT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="ScriptMgr.cpp" />
+    <ClCompile Include="TestScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestMgr.cpp">
+      <Filter>Scripts\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboMainScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboSubAScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboSubBScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboSubCScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboSubDScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboSubEScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Combo_system</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowAlphaScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Shadow Flash</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowBetaScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Shadow Flash</Filter>
+    </ClCompile>
+    <ClCompile Include="InstinctScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Instinct</Filter>
+    </ClCompile>
+    <ClCompile Include="InstinctActiveScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Instinct</Filter>
+    </ClCompile>
+    <ClCompile Include="GatekeeperScript.cpp">
+      <Filter>Scripts\UNIT\MONSTER</Filter>
+    </ClCompile>
+    <ClCompile Include="MobGravityScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerScript.cpp">
+      <Filter>Scripts\UNIT\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="SoulEclipseScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Soul Eclipse</Filter>
+    </ClCompile>
+    <ClCompile Include="RagingBlowScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Raging Blow</Filter>
+    </ClCompile>
+    <ClCompile Include="InstallationTypeScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Flash Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="BoosterScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\BUFF\Booster</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboDeathfaultScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Death Fault</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoutScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Shout</Filter>
+    </ClCompile>
+    <ClCompile Include="MapleWarriorScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\BUFF\Maple Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackScript.cpp">
+      <Filter>Scripts\SKILL_SCRIPT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="BeShotEffectScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="GiganticvikingScript.cpp">
+      <Filter>Scripts\UNIT\MONSTER</Filter>
+    </ClCompile>
+    <ClCompile Include="PhantomwatchScript.cpp">
+      <Filter>Scripts\UNIT\MONSTER</Filter>
+    </ClCompile>
+    <ClCompile Include="PapulatusScript.cpp">
+      <Filter>Scripts\UNIT\MONSTER</Filter>
+    </ClCompile>
+    <ClCompile Include="AlterEgoScript.cpp">
+      <Filter>Scripts\UNIT\MONSTER</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderScript.cpp">
+      <Filter>Scripts\UNIT\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaScript.cpp">
+      <Filter>Scripts\OBJECT\MAP_OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="LadderScript.cpp">
+      <Filter>Scripts\OBJECT\MAP_OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="MistScript.cpp">
+      <Filter>Scripts\OBJECT\MAP_OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="RopeScript.cpp">
+      <Filter>Scripts\OBJECT\MAP_OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="FallenScript.cpp">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Gear</Filter>
+    </ClCompile>
+    <ClCompile Include="InstantDeathAreaScript.cpp">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\InstantArea</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBodyScript.cpp">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserPointScript.cpp">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserScript.cpp">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstructScript.cpp">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraScript.cpp">
+      <Filter>Scripts\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CamCollScript.cpp">
+      <Filter>Scripts\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleScript.cpp">
+      <Filter>Scripts\OBJECT\MAP_OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveExplosionScript.cpp">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="UICamScript.cpp">
+      <Filter>Scripts\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CraneScript.cpp">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Crane</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerColScript.cpp">
+      <Filter>Scripts\UNIT\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="WireScript.cpp">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\Crane</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeBombScript.cpp">
+      <Filter>Scripts\OBJECT\PAPULATUS_OBJECT\TimeBombs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScript.cpp">
+      <Filter>Scripts\OBJECT\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseScript.cpp">
+      <Filter>Scripts\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="FingerScript.cpp">
+      <Filter>Scripts\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemScript.cpp">
+      <Filter>Scripts\OBJECT</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

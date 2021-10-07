@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. App">
+      <UniqueIdentifier>{5380af10-01e1-4378-83df-5a030e3f4a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. MainFrame">
+      <UniqueIdentifier>{fe755100-6aae-43d8-b29f-928d260374f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. View">
+      <UniqueIdentifier>{ef429354-c2aa-4cfb-bfe9-75db862c8330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Dialog">
+      <UniqueIdentifier>{ba17f19a-aa06-4153-9c81-11da73497b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Module">
+      <UniqueIdentifier>{89fe4706-f361-4207-9b66-2facfbcb1969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Module\Splitter">
+      <UniqueIdentifier>{11a7e576-e981-4ec6-a6ff-b7d4416c6d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Module\ListDlg">
+      <UniqueIdentifier>{fd4d7186-1e47-4c13-8319-4c1cc03109d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Dialog\ComDlg">
+      <UniqueIdentifier>{7b5d286d-9fdd-45d3-80ba-043adf64dcb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Dialog\TreeDlg">
+      <UniqueIdentifier>{f413e426-80a0-4d70-8d20-afa8570cecd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Manager">
+      <UniqueIdentifier>{fd823672-5275-4b97-8bc9-5d9dbe0b51b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool.h">
+      <Filter>01. App</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02. MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ComponentView.h">
+      <Filter>03. View</Filter>
+    </ClInclude>
+    <ClInclude Include="HierachyView.h">
+      <Filter>03. View</Filter>
+    </ClInclude>
+    <ClInclude Include="GameView.h">
+      <Filter>03. View</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnView.h">
+      <Filter>03. View</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgView.h">
+      <Filter>03. View</Filter>
+    </ClInclude>
+    <ClInclude Include="MySplitterWnd.h">
+      <Filter>05. Module\Splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="ListDlg.h">
+      <Filter>05. Module\ListDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="HierachyDlg.h">
+      <Filter>04. Dialog\TreeDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ResDlg.h">
+      <Filter>04. Dialog\TreeDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSceneMaker.h">
+      <Filter>06. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveLoadMgr.h">
+      <Filter>06. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator2DDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderDlg.h">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool.cpp">
+      <Filter>01. App</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02. MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="ComponentView.cpp">
+      <Filter>03. View</Filter>
+    </ClCompile>
+    <ClCompile Include="HierachyView.cpp">
+      <Filter>03. View</Filter>
+    </ClCompile>
+    <ClCompile Include="GameView.cpp">
+      <Filter>03. View</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnView.cpp">
+      <Filter>03. View</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgView.cpp">
+      <Filter>03. View</Filter>
+    </ClCompile>
+    <ClCompile Include="MySplitterWnd.cpp">
+      <Filter>05. Module\Splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="ListDlg.cpp">
+      <Filter>05. Module\ListDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="HierachyDlg.cpp">
+      <Filter>04. Dialog\TreeDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ResDlg.cpp">
+      <Filter>04. Dialog\TreeDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSceneMaker.cpp">
+      <Filter>06. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveLoadMgr.cpp">
+      <Filter>06. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator2DDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderDlg.cpp">
+      <Filter>04. Dialog\ComDlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My03Tool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My03Tool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\03. Tool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

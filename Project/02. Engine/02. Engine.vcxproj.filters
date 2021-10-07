@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{469d5142-2f54-4f35-8ddf-8a779bdc03a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderCode">
+      <UniqueIdentifier>{c9f1b06d-f714-469c-bae7-eaba0ff948a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{45efdcb8-b8cd-4c42-b6ec-daee2f2f556c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Compnent">
+      <UniqueIdentifier>{2f5b58fd-42e3-4962-aedc-20bc8ad3fe59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{150bbcf8-7e27-4517-8a24-bfdce5cff009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{7361ba9a-9745-4b90-b5b0-795902876827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{fd7cca2c-4188-4138-bed9-ff17b78615d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1261ee60-bc39-4ed8-9075-f6a16366507b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{efa03e53-80a5-4877-aa2a-2a92557c3492}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>GameObject\Compnent</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRender.h">
+      <Filter>GameObject\Compnent</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>GameObject\Compnent</Filter>
+    </ClInclude>
+    <ClInclude Include="Res.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="PathMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstBuffer.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ResMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameObject\Compnent</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefab.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Ptr.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>GameObject\Compnent</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMgr.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendState.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilState.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>GameObject\Compnent</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator2D.h">
+      <Filter>GameObject\Compnent</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Well512Random.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>GameObject\Compnent</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRender.cpp">
+      <Filter>GameObject\Compnent</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>GameObject\Compnent</Filter>
+    </ClCompile>
+    <ClCompile Include="Res.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstBuffer.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ResMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMath.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameObject\Compnent</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefab.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Ptr.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>GameObject\Compnent</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMgr.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendState.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilState.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>GameObject\Compnent</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator2D.cpp">
+      <Filter>GameObject\Compnent</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="std.fx">
+      <Filter>ShaderCode</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleMath.inl">
+      <Filter>Header</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
